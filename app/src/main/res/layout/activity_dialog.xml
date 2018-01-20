@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="io.innofang.wintertraining.DialogActivity">
+
+    <Button
+        android:id="@+id/show_dialog_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+        android:text="Show Dialog"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/show_custom_dialog_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+        android:text="Show Custom Dialog"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/show_list_dialog_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+        android:text="Show List Dialog"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/show_single_choice_dialog_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+        android:text="Show Single Choice Dialog"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/show_multi_choice_dialog_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+        android:text="Show Multi Choice Dialog"
+        android:textAllCaps="false"/>
+</LinearLayout>
