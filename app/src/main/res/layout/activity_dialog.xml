@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:gravity="center"
     android:orientation="vertical"
-    tools:context="io.innofang.wintertraining.DialogActivity">
+    tools:context="io.innofang.wintertraining.activity.DialogActivity">
 
     <Button
         android:id="@+id/show_dialog_button"

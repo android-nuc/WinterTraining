@@ -1,9 +1,11 @@
-package io.innofang.wintertraining;
+package io.innofang.wintertraining.activity;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+
+import io.innofang.wintertraining.R;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -17,6 +19,11 @@ public class MainActivity extends AppCompatActivity {
         switch (view.getId()) {
             case R.id.dialog_activity:
                 startActivity(new Intent(this, DialogActivity.class));
+                break;
+            case R.id.activity_learning:
+                startActivity(new Intent(this, LearnForActivity.class));
+                break;
+
         }
     }
 }

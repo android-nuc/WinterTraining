@@ -1,4 +1,4 @@
-package io.innofang.wintertraining;
+package io.innofang.wintertraining.activity;
 
 import android.content.DialogInterface;
 import android.os.Bundle;
@@ -8,6 +8,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
+
+import io.innofang.wintertraining.R;
 
 public class DialogActivity extends AppCompatActivity {
 
