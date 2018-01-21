@@ -26,4 +26,26 @@
         android:text="Activity Learning"
         android:textAllCaps="false"/>
 
+    <Button
+        android:id="@+id/fragment_learning"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+        android:text="Fragment Learning"
+        android:textAllCaps="false"/>
+    <Button
+        android:id="@+id/view_pager_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+        android:text="ViewPager Activity"
+        android:textAllCaps="false"/>
+ <Button
+        android:id="@+id/permission_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+        android:text="Permission Activity"
+        android:textAllCaps="false"/>
+
 </LinearLayout>

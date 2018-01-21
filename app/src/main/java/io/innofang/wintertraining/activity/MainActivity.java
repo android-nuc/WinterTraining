@@ -23,6 +23,15 @@ public class MainActivity extends AppCompatActivity {
             case R.id.activity_learning:
                 startActivity(new Intent(this, LearnForActivity.class));
                 break;
+            case R.id.fragment_learning:
+                startActivity(new Intent(this, LearnFragmentActivity.class));
+                break;
+            case R.id.view_pager_activity:
+                startActivity(new Intent(this, ViewPagerActivity.class));
+                break;
+            case R.id.permission_activity:
+                startActivity(new Intent(this, PermissionsActivity.class));
+                break;
 
         }
     }

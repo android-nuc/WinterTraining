@@ -2,6 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           package="io.innofang.wintertraining">
 
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -21,6 +24,12 @@
         <activity android:name=".activity.LearnForActivity">
         </activity>
         <activity android:name=".activity.LuckyActivity">
+        </activity>
+        <activity android:name=".activity.LearnFragmentActivity">
+        </activity>
+        <activity android:name=".activity.ViewPagerActivity">
+        </activity>
+        <activity android:name=".activity.PermissionsActivity">
         </activity>
     </application>
 
