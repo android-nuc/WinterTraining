@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="垂直"
+        android:id="@+id/vertical"
+        />
+
+    <item
+        android:title="水平"
+        android:id="@+id/horizontal"
+        />
+
+    <item
+        android:title="两列"
+        android:id="@+id/two_columns"
+        />
+</menu>

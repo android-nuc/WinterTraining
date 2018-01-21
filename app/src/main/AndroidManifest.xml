@@ -31,6 +31,10 @@
         </activity>
         <activity android:name=".activity.PermissionsActivity">
         </activity>
+        <activity android:name=".activity.MenuActivity">
+        </activity>
+        <activity android:name=".activity.RecyclerViewActivity">
+        </activity>
     </application>
 
 </manifest>
